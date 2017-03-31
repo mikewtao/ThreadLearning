@@ -7,7 +7,6 @@ import java.util.concurrent.Future;
 /**
  * 
  * @author scott
- * 
  */
 public class CallableTest {
 
