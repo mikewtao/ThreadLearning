@@ -1,5 +1,9 @@
 package com.mike.ThreadLearning.ConsumerAndProducer;
-
+/**
+ * 
+ * @author scott
+ *
+ */
 public class Sstack {
 
 	private String[] str = new String[6];
@@ -15,7 +19,7 @@ public class Sstack {
 				e.printStackTrace();
 			}
 		}
-		this.notify();// 通知其他等待的线程
+		this.notify();//通知其他等待的线程
 		str[index] = st;
 		this.index++;
 	}
