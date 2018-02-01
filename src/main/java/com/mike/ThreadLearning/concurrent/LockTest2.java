@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LockTest2 {
 
 	public static void main(String[] args) {
-		Business bus=new Business();
+		final Business bus=new Business();
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
